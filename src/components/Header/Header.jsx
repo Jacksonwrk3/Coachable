@@ -8,7 +8,9 @@ const Header = (props) => {
       <Logo />
       <div className={classes.buttonContainer}>
         <Button primary={false}>Register</Button>
-        <Button primary={true}>Sign in</Button>
+        <Button primary={true} className={classes.buttonSpacing}>
+          Sign in
+        </Button>
       </div>
     </header>
   );

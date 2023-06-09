@@ -5,7 +5,7 @@ const Button = (props) => {
     <button
       className={`${
         props.primary ? classes.primaryButton : classes.secondaryButton
-      } ${classes.generalButton}`}
+      } ${classes.generalButton} ${props.className}`}
       onClick={props.onClick}
     >
       {props.children}
