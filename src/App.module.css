@@ -2,3 +2,18 @@
   width: 80%;
   margin: auto;
 }
+
+.hireOurCoachesContainer {
+  display: flex;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.left {
+  width: 50%;
+}
+
+.right {
+  margin: auto;
+  width: 50%;
+}

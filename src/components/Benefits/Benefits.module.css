@@ -1,0 +1,15 @@
+.benefits {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  border: 5px solid black;
+}
+
+.centerContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
