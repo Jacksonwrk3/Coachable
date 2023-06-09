@@ -122,7 +122,11 @@ const Text = (props) => {
     fontWeight: fontWeight,
   };
 
-  return <p style={textStyles}>{props.children}</p>;
+  return (
+    <p className={props.className} style={textStyles}>
+      {props.children}
+    </p>
+  );
 };
 
 export default Text;

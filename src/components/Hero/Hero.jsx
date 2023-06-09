@@ -14,7 +14,12 @@ const Hero = (props) => {
             Exercises
           </PrimaryColor>
         </h1>
-        <Text fontWeight="extraLight" fontSize="sm" textAlign="left">
+        <Text
+          className={classes.textSpacing}
+          fontWeight="extraLight"
+          fontSize="sm"
+          textAlign="left"
+        >
           With our professional trainers, will we guide you with the best
           program to help you get healthy and ideal body
         </Text>
