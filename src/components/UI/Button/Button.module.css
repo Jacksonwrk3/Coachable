@@ -1,0 +1,16 @@
+.btn {
+  font-size: 1rem;
+  min-width: 5rem;
+  min-height: 1.75rem;
+  border-radius: 1rem;
+}
+
+.primaryBtn {
+  background-color: #f05d23;
+  color: white;
+  border: none;
+}
+
+.secondaryBtn {
+  border: 1px solid #f05d23;
+}
