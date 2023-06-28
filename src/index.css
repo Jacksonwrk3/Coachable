@@ -19,12 +19,15 @@ h6 {
   font-weight: 700;
 }
 
+h1 {
+  font-size: 34px;
+}
+
 p,
 span,
 a,
 li {
   font-family: "Inter";
-  font-size: 1rem;
 }
 
 code {

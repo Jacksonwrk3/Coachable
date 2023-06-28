@@ -6,7 +6,7 @@ const Button = (props) => {
       onClick={props.onClick}
       className={`${
         props.isPrimary ? classes.primaryBtn : classes.secondaryBtn
-      } ${classes.btn}`}
+      } ${classes.btn} ${props.className}`}
     >
       {props.children}
     </button>

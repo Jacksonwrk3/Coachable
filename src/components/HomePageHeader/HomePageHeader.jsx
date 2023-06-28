@@ -7,8 +7,12 @@ const HomePageHeader = () => {
     <header className={classes.header}>
       <Logo />
       <div className={classes.btnContainer}>
-        <Button isPrimary={false}>Register</Button>
-        <Button isPrimary={true}>Sign in</Button>
+        <Button className={classes.registerBtn} isPrimary={false}>
+          Register
+        </Button>
+        <Button className={classes.signinBtn} isPrimary={true}>
+          Sign in
+        </Button>
       </div>
     </header>
   );

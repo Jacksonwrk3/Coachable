@@ -3,11 +3,18 @@
   margin-top: 1rem;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .btnContainer {
-  margin-left: auto;
   display: flex;
   justify-content: space-around;
-  width: 50%;
+}
+
+.registerBtn {
+  margin-right: 0.25rem;
+}
+
+.signinBtn {
+  margin-left: 0.25rem;
 }

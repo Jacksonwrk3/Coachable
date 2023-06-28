@@ -1,0 +1,9 @@
+.homePage {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+}
+
+.homePageContent {
+  width: 95%;
+}
