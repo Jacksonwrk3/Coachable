@@ -1,8 +1,7 @@
 .btn {
   font-size: 1rem;
-  min-width: 5rem;
-  min-height: 1.75rem;
   border-radius: 1rem;
+  padding: 0.3461rem 1rem;
 }
 
 .primaryBtn {

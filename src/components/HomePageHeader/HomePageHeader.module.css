@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.btnContainer {
+  margin-left: auto;
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}

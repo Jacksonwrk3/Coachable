@@ -1,5 +1,5 @@
 import React from "react";
-import HomePageHeader from "../components/HomePageHeader";
+import HomePageHeader from "../components/HomePageHeader/HomePageHeader";
 const HomePage = () => {
   return (
     <>
