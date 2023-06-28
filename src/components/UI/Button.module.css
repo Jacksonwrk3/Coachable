@@ -1,9 +1,13 @@
-.button {
+.btn {
+  font: 1rem;
+  width: 1rem;
+  height: 0.25rem;
 }
 
-.primaryButton {
+.primaryBtn {
+  font-size: ;
   color: #f05d23;
 }
 
-.secondaryButton {
+.secondaryBtn {
 }
