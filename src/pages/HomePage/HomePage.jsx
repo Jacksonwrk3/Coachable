@@ -120,7 +120,7 @@ const HomePage = () => {
           </section>
           <section>
             <div>
-              <h2>
+              <h2 className={classes.bannerHeaderAlignment}>
                 Monitor <br />
                 <PrimaryColor>Your Progress</PrimaryColor>
               </h2>

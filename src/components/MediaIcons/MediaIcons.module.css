@@ -1,0 +1,19 @@
+.iconList {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  list-style: none;
+  width: 45%;
+  align-items: center;
+}
+
+.icons {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+li {
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
