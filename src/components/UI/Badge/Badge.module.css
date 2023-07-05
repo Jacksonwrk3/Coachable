@@ -1,0 +1,8 @@
+.badge {
+  border: 1px solid #f2f2f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+}
