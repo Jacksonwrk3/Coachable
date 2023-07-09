@@ -28,14 +28,14 @@ const Footer = (props) => {
         </div>
         <div className={classes.footerSections}>
           <LightText>Coachable App</LightText>
-          <a>
+          <a className={classes.badgeLink}>
             <img
               src="apple-store-badge.svg"
               alt="Get it in Apple Store"
               className={`${classes.appStoreBadge} ${classes.appleStoreBadge}`}
             />
           </a>
-          <a>
+          <a className={classes.badgeLink}>
             <img
               src="google-play-badge.png"
               alt="Get it on Google Play"

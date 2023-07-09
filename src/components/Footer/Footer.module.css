@@ -22,10 +22,13 @@
 .appStoreBadge {
   max-width: 100%;
   height: auto;
-  width: 300px;
 }
 
 .appleStoreBadge {
   margin: 6%;
   width: 88%;
+}
+
+.badgeLink {
+  width: 9.375rem;
 }
