@@ -1,6 +1,7 @@
 import React from "react";
 import Logo from "../Logo/Logo";
 import Button from "../UI/Button/Button";
+import LoginButton from "../LoginButton/LoginButton";
 import classes from "./HomePageHeader.module.css";
 const HomePageHeader = () => {
   return (
@@ -10,9 +11,10 @@ const HomePageHeader = () => {
         <Button className={classes.registerBtn} isPrimary={false}>
           Register
         </Button>
-        <Button className={classes.signinBtn} isPrimary={true}>
+        {/* <Button className={classes.signinBtn} isPrimary={true}>
           Sign in
-        </Button>
+        </Button> */}
+        <LoginButton />
       </div>
     </header>
   );
